@@ -1,0 +1,93 @@
+---
+layout: default
+---
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>{{ page.title }}</title>
+<!-- 	<link rel="stylesheet" media="screen" href="style.css"> -->
+	<link rel="stylesheet" href="w3.css">
+	<link rel="icon" href="http://envirover.com/favicon.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="{{ page.description }}">
+	<meta name="keywords" content="{{ page.keywords }}">
+	<meta name="robots" content="all">
+</head>
+<body>
+<!-- Navbar (sit on top) -->
+<div >
+  <ul class="w3-navbar w3-white w3-wide w3-padding-8 w3-card-2">
+    <li>
+      <a href="index.html" class="w3-margin-left"><img id="logo" src="images/logo.png" alt="ENVIROVER"/></a>
+    </li>
+    <!-- Float links to the right. Hide them on small screens -->
+    <li class="w3-right w3-hide-small">
+      <a href="/index.html#solutions" class="w3-left">SOLUTIONS</a>
+      <a href="/index.html#technology" class="w3-left">TECHNOLOGY</a>
+      <a href="/index.html#about" class="w3-left">ABOUT</a>
+      <a href="/index.html#contacts" class="w3-left w3-margin-right">CONTACTS</a>
+    </li>
+  </ul>
+</div>
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+  }(document, "script", "twitter-wjs"));
+  </script>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-86743417-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+  <script>
+  var slideIndex = 1;
+  showDivs(slideIndex);
+
+  function plusDivs(n) {
+      showDivs(slideIndex += n);
+  }
+
+  function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {slideIndex = 1} 
+      if (n < 1) {slideIndex = x.length} ;
+      for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none"; 
+      }
+      x[slideIndex-1].style.display = "block"; 
+  }
+  </script>
+</header>
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:800px" >
+{{content}}
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-blue w3-padding-16">
+  <p>©Copyright 2018 Envirover</p>
+</footer>
+
+</body>
+</html>
