@@ -1,11 +1,8 @@
 ---
 layout: default
 ---
-# Support
 
-Please contact <a href="mailto:support@envirover.com">support@envirover.com</a> for technical support on SPL and NVI systems.
-
-## Forum
+# Forum
 
 <iframe id="forum_embed"
   src="javascript:void(0)"
@@ -20,6 +17,10 @@ Please contact <a href="mailto:support@envirover.com">support@envirover.com</a> 
      + '&showsearch=true&showpopout=true&showtabs=false'
      + '&parenturl=' + encodeURIComponent(window.location.href);
 </script>
+
+## Support
+
+Please contact <a href="mailto:support@envirover.com">support@envirover.com</a> for technical support on SPL and NVI systems.
 
 ## Issues
 
