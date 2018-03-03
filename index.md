@@ -1,11 +1,11 @@
 ---
 title: ENVIROVER - Support
 layout: default
-keywords: support, spl, nvi, issues, forum, q&a
+keywords: support, spl, nvi, issues, discussion forum, q&a
 description: Envirover technical support
 ---
 
-# Forum
+# Discussion Forum
 
 <iframe id="forum_embed"
   src="javascript:void(0)"
@@ -21,10 +21,8 @@ description: Envirover technical support
      + '&parenturl=' + encodeURIComponent(window.location.href);
 </script>
 
-## Support
+## Paid Support
 
-Please contact <a href="mailto:support@envirover.com">support@envirover.com</a> for technical support on SPL and NVI systems.
+Please contact <a href="mailto:support@envirover.com">support@envirover.com</a> for paid technical support.
 
-## Issues
 
-Found a bug or want to request a new feature?  Please let us know by submitting an [issue](https://github.com/envirover/support/issues).
