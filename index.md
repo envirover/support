@@ -4,8 +4,11 @@ layout: default
 keywords: support, spl, nvi, issues, discussion forum, q&a
 description: Envirover technical support
 ---
+## Paid Support
 
-# Discussion Forum
+Please contact <a href="mailto:support@envirover.com">support@envirover.com</a> for paid technical support.
+
+## Discussion Forum
 
 <iframe id="forum_embed"
   src="javascript:void(0)"
@@ -21,8 +24,6 @@ description: Envirover technical support
      + '&parenturl=' + encodeURIComponent(window.location.href);
 </script>
 
-## Paid Support
 
-Please contact <a href="mailto:support@envirover.com">support@envirover.com</a> for paid technical support.
 
 
