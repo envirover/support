@@ -14,17 +14,19 @@ description: Envirover technical support
 <!-- Discussion forum section -->
 <div class="w3-container" id="discussion_forum">
   <h3 class="w3-border-bottom w3-border-light-grey w3-padding-12">DISCUSSION FORUM</h3>
-	<iframe id="forum_embed"
-	  src="javascript:void(0)"
-	  scrolling="no"
-	  frameborder="0"
-	  width="100%"
-	  height="640">
-	</iframe>
-	<script type="text/javascript">
-	  document.getElementById('forum_embed').src =
-	     'https://groups.google.com/a/envirover.com/forum/embed/?place=forum/forum'
-	     + '&showsearch=true&showpopout=true&showtabs=false'
-	     + '&parenturl=' + encodeURIComponent(window.location.href);
-	</script>
+  <div id="disqus_thread"></div>
+<script>
+var disqus_config = function () {
+this.page.url = 'http://envirover.com/support';  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = 'support'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://envirover.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
